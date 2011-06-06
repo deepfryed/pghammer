@@ -1,0 +1,21 @@
+= Hamming distance function for PostgreSQL
+
+Computes the hamming distance for 2 64bit unsigned integers.
+
+== Requirements
+
+* PostgreSQL 8.4+ Server development libraries. (debian: postgresql-server-dev-9.0 e.g.)
+* GNU C compiler.
+* GNU make.
+
+== Installing
+
+PSQL_DB=<database name> make install
+
+== Example
+
+    select hamming_distance(4, 3); #=> 3
+
+= License
+
+{CC BY-SA 3.0}[http://creativecommons.org/licenses/by-sa/3.0/]
