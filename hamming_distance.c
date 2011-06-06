@@ -1,3 +1,14 @@
+/*
+    (c) Bharanee Rathna 2011
+
+    CC BY-SA 3.0
+    http://creativecommons.org/licenses/by-sa/3.0/
+
+    Free for every type of use. The author cannot be legally held responsible for
+    any damages resulting from the use of this work. All modifications or derivatives
+    need to be attributed.
+*/
+
 #include <ctype.h>
 #include "postgres.h"
 #include "fmgr.h"
