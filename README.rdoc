@@ -4,7 +4,7 @@ Computes the hamming distance for 2 64bit unsigned integers.
 
 == Requirements
 
-* PostgreSQL 8.4+ Server development libraries. (debian: postgresql-server-dev-9.0 e.g.)
+* PostgreSQL 9.0 Server development libraries. (debian: postgresql-server-dev-9.0)
 * GNU C compiler.
 * GNU make.
 
